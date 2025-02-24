@@ -19,10 +19,10 @@ O projeto está organizado nas seguintes classes:
 
 - **Cliente**: representa o cliente da venda.
 - **Venda**: representa uma venda, contendo informações sobre o cliente, data e valor total.
-- **Desconto** (Interface): define um contrato para os diferentes tipos de desconto.
-- **DescontoAniversario**: aplica 15% de desconto caso seja o aniversário do cliente.
-- **DescontoProgressivo**: aplica um desconto proporcional ao valor da compra, respeitando o limite de 20%.
-- **DescontoFixo**: aplica um percentual fixo de desconto.
+- **DescontoStrategy** (Interface): define um contrato para os diferentes tipos de desconto.
+- **DescontoStrategyAniversario**: aplica 15% de desconto caso seja o aniversário do cliente.
+- **DescontoStrategyProgressivo**: aplica um desconto proporcional ao valor da compra, respeitando o limite de 20%.
+- **DescontoStrategyDefinido**: aplica um percentual fixo de desconto.
 - **Principal**: classe principal para teste do sistema.
 
 ## Perguntas e Respostas
